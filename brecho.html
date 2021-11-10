@@ -5,25 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>brecho</title>
-    <link rel="stylesheet" href="lib/owlCarousel/dist/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="lib/owlCarousel/dist/assets/owl.owl.theme.default.min.css">
+    <link rel="stylesheet" href="carousel/lib/owlCarousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="carousel/lib/owlCarousel/dist/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="brecho.css">
 </head>
 <body>
     <header>
-        <h1>Título</h1>
+        <h1>BRECHO</h1>
     </header>
     <section>
+
         <div>
             <p>Testando</p>
+        </div>
+
+        <div class="owl-carousel owl-theme">
+
+            <div class="item"><img src="img/academia.jpeg"></div>
+            <div class="item"><img src="img/camera.jpeg"></div>
+            <div class="item"><img src="img/globo.jpeg"></div>
+            <div class="item"><img src="img/k7.jpeg"></div>
+            <div class="item"><img src="img/maquina.jpeg"></div>
+            <div class="item"><img src="img/neon.jpeg"></div>
+            <div class="item"><img src="img/relogio.jpeg"></div>
+
         </div>
         <div>
             <p>Testando</p>
         </div>
+
     </section>
     <footer>
-        <p>@gabrieledemedeiros</p>
+        <p><a href="https://www.linkedin.com/in/dev-gabriele-de-medeiros/" style="text-decoration: none; color: white;" ><img src="/img/linkedin.png" alt="Ícone do LinkedIn" width="2%"></a>
+        <a href="https://github.com/gabdev95" style="text-decoration: none; color: white;"><img src="/img/github.png" alt="Ícone do GitHub" width="2%"></a></p>
     </footer>
     <script src="brecho.js"></script>
+    <script src="carousel/lib/jquery/jquery.min.js"></script>
+    <script src="carousel/lib/owlCarousel/dist/owl.carousel.min.js"></script>
+    <script type="text/javascript">
+
+        $(document).ready(function(){
+            $(".owl-carousel").owlCarousel();
+        });
+
+    </script>
 </body>
 </html>
