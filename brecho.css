@@ -1,5 +1,5 @@
 body {
-    background: purple;  
+    background: 7f7f87;  
     font: normal, 15pt, Arial;
     background-repeat: no-repeat;
     width: 99vw;
@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    color: white;
+    color: #3B3C59;
     text-align: center;
 }
 
@@ -27,4 +27,8 @@ footer {
 
 h1 {
     font-style: oblique;
+}
+
+nav {
+    background: #3ACBC7;
 }
