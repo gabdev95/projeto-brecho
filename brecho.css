@@ -1,34 +1,64 @@
 body {
-    background: 7f7f87;  
-    font: normal, 15pt, Arial;
-    background-repeat: no-repeat;
-    width: 99vw;
-    height: 95vh;
-}
-
-header {
-    color: #3B3C59;
-    text-align: center;
-}
-
-section {
-    background: white;
-    border-radius: 10px;
-    padding: 15px;
-    width: 900px;
-    margin: auto;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.411);
+    background: #d5fffd;
 }
 
 footer {
     color: white;
     text-align: center;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+.navbar {
+    background-color: white;
+    width: 100%;
+}
+
+.navbar-brand {
+    padding-left: 20px;
+}
+
+.btn-outline-light {
+    color: white;
+}
+
+.nav-item {
+    color: white;
 }
 
 h1 {
-    font-style: oblique;
+    font-size: 8vw;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0vw;
 }
 
-nav {
-    background: #3ACBC7;
+.container {
+    padding-top: 18vw;
+    padding-bottom: 10vw;
+    text-align: left;
+}
+
+.row {
+    padding-bottom: 0vw;
+}
+
+.destaque {
+    background-image: url("img/destaque.png");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    width: 100%;
+    height: 51vw;
+    color: white;
+}
+
+.tudo {
+    padding-top: 50px;
+    background-color: white;
+    height: 52vw;
+}
+
+.parceiros {
+    background-color: #3630A9;
+    color: white;
+    height: 52vw;
 }
