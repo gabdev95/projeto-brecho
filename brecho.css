@@ -52,9 +52,10 @@ h1 {
 }
 
 .tudo {
-    padding-top: 50px;
     background-color: white;
-    height: 52vw;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    height: 50%;
 }
 
 .parceiros {
@@ -62,3 +63,4 @@ h1 {
     color: white;
     height: 52vw;
 }
+
