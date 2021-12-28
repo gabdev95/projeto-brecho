@@ -38,9 +38,6 @@ h1 {
     text-align: left;
 }
 
-.row {
-    padding-bottom: 0vw;
-}
 
 .destaque {
     background-image: url("img/destaque.png");
@@ -59,8 +56,16 @@ h1 {
 }
 
 .parceiros {
-    background-color: #3630A9;
-    color: white;
-    height: 52vw;
+    background-color: #ffffff;
+    color: black;
+    padding-top: 0rem;
+
 }
 
+.fotosparceiros {
+    border-radius: 50%;
+}
+
+.col-lg-4 {
+    text-align: center;
+}
