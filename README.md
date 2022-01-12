@@ -14,9 +14,10 @@ O desenvolvimento do Brechó Online teve como objetivo elaborar telas para um br
   <img src="/img/brecho.gif">
 </p>
 
-Projeto responsivo
+<p align="center">Projeto responsivo</p>
 
 <p align="center">
   <img height="500" src="/img/brecho_responsivo.gif">
 </p>
 
+##### Em processo 🔄
